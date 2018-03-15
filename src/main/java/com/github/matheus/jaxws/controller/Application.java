@@ -12,12 +12,12 @@ public class Application {
         /*
          * Endpoint local
          */
-		//ligarEndpoint("localhost", "8089");
+		//ligarEndpointNoticia("localhost", "8089");
 
         /*
          * Endpoint Heroku
          */
-        ligarEndpointNoticia("jaxws-crud-java-postgresql.herokuapp.com", "80");
+        ligarEndpointNoticia("localhost", "80");
 	}
 
     /**
