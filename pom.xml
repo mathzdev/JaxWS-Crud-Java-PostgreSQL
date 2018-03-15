@@ -16,7 +16,7 @@
                     <assembleDirectory>target</assembleDirectory>
                     <programs>
                         <program>
-                            <mainClass>Application</mainClass>
+                            <mainClass>com.github.matheus.jaxws.controllerApplication</mainClass>
                             <name>application</name>
                         </program>
                     </programs>
