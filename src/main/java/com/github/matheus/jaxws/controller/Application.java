@@ -12,23 +12,19 @@ public class Application {
         /*
          * Endpoint local
          */
-		//ligarEndpointNoticia("localhost", "8089");
-
-        /*
-         * Endpoint Heroku
-         */
-        ligarEndpointNoticia("localhost", "80");
+        ligarEndpointNoticia("http","localhost", "8089");
 	}
 
     /**
      * Ligar o endpoint de noticia na url desejada
+     * @param protocolo
      * @param dominio
      * @param porta
      */
-	private static void ligarEndpointNoticia(String dominio, String porta)
+	private static void ligarEndpointNoticia(String protocolo, String dominio, String porta)
     {
         System.out.println("Liberando WBS na porta: " + porta);
-        Endpoint.publish("http://"+ dominio + ":" + porta + "/WBS/NoticiaWBS", new NoticiaWBS());
+        Endpoint.publish(protocolo + "://" + dominio + ":" + porta + "/WBS/NoticiaWBS", new NoticiaWBS());
         System.out.println("Liberado WBS na porta: " + porta);
     }
 }
