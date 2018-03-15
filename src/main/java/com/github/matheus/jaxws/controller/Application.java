@@ -12,6 +12,7 @@ public class Application {
 		String porta = "8089";
 		System.out.println("Liberando WBS na porta: " + porta);
 		Endpoint.publish("http://localhost:" + porta + "/WBS/NoticiaWBS", new NoticiaWBS());
+		//Endpoint.publish("https://jaxws-crud-java-postgresql.herokuapp.com//WBS/NoticiaWBS", new NoticiaWBS());;
 		System.out.println("Liberado WBS na porta: " + porta);
 	}
 }
