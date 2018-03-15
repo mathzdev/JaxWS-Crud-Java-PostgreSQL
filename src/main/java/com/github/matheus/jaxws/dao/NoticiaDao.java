@@ -60,7 +60,7 @@ public class NoticiaDao {
         }
 
         String sql = "update noticia set titulo = ? , texto = ? , data_publicacao = ? "
-                   + "where id = ? ;";
+                + "where id = ? ;";
 
         PreparedStatement ps = con.prepareStatement(sql);
 

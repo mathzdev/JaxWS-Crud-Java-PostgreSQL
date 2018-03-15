@@ -1,10 +1,10 @@
 package com.github.matheus.jaxws.service;
- 
+
 import java.sql.SQLException;
 import java.util.ArrayList;
 
 import javax.jws.WebService;
- 
+
 import com.github.matheus.jaxws.dao.NoticiaDao;
 import com.github.matheus.jaxws.entity.Noticia;
 
@@ -22,7 +22,7 @@ public class NoticiaWBS implements NoticiaInterface {
             return false;
         }
     }
- 
+
     public boolean alterar(Noticia noticia) {
         NoticiaDao dao = new NoticiaDao();
         try {
@@ -32,7 +32,7 @@ public class NoticiaWBS implements NoticiaInterface {
             return false;
         }
     }
- 
+
     public boolean deletar(Noticia noticia) {
         NoticiaDao dao = new NoticiaDao();
         try {
@@ -42,7 +42,7 @@ public class NoticiaWBS implements NoticiaInterface {
             return false;
         }
     }
- 
+
     public Noticia ler(int id) {
         NoticiaDao dao = new NoticiaDao();
         try {
@@ -62,7 +62,7 @@ public class NoticiaWBS implements NoticiaInterface {
             return null;
         }
     }
- 
+
     public ArrayList<Noticia> listar() {
         NoticiaDao dao = new NoticiaDao();
         try {
