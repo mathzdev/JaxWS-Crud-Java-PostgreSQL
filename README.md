@@ -13,6 +13,7 @@ WebService SOAP construído com as tecnologias:
 | Titulo | String (200) |
 | Texto | String (1000) |
 | Data | Date (AAAA-MM-DDTHH:MM:SS-HH:MM) |
+
 ![](https://i.imgur.com/2BKaGXL.png)
 #### Retorno padrão Boolean true/false
 
@@ -23,7 +24,9 @@ WebService SOAP construído com as tecnologias:
 | Titulo | String (200) |
 | Texto | String (1000) |
 | Data | Date (AAAA-MM-DDTHH:MM:SS-HH:MM) |
+
 #### * *id Obrigatório para identificação do registro, os outros parâmetros apenas caso deseje que sejam alterados.*
+
 ![](https://i.imgur.com/E4UZ7o0.png)
 #### Retorno padrão Boolean true/false
 
@@ -31,7 +34,9 @@ WebService SOAP construído com as tecnologias:
 | Parâmetro | Tipo |
 | - | - |
 | Id * | Int |
+
 #### * *id Obrigatório para identificação do registro.*
+
 ![](https://i.imgur.com/krfTUlL.png)
 #### Retorno padrão Boolean true/false
 
@@ -39,12 +44,15 @@ WebService SOAP construído com as tecnologias:
 | Parâmetro | Tipo |
 | - | - |
 | arg0 (Id) * | Int |
+
 #### * *id Obrigatório para identificação do registro.*
+
 ![](https://i.imgur.com/TWKEg4D.png)
 #### Retorno objeto Noticia com o registro específico.
 
 ## Listar
 #### *Sem parâmetro.*
+
 ![](https://i.imgur.com/yLiJDie.png)
 #### Retorno lista de objetos Noticia.
 
@@ -52,7 +60,9 @@ WebService SOAP construído com as tecnologias:
 | Parâmetro | Tipo |
 | - | - |
 | arg0 (texto) * | String |
+
 #### * *texto Obrigatório para procurar entre os registros, em seu título ou texto.*
+
 ![](https://i.imgur.com/dcJR1au.png)
 #### Retorno lista de objetos Noticia que contenham em seu título ou texto o parâmetro requisitado.
 
