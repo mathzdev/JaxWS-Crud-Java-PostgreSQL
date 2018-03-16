@@ -9,9 +9,7 @@ import javax.xml.ws.Endpoint;
  */
 public class Application {
     public static void main(String[] args) {
-        /*
-         * Endpoint local
-         */
+        // Endpoint local
         ligarEndpointNoticia("http", "localhost", "8080");
     }
 
