@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.matheus.jaxws</groupId>
-    <artifactId>JaxWS-Crud-Java-Mongo</artifactId>
+    <artifactId>JaxWS-Crud-Java-PostgreSQL</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <build>
